@@ -1,0 +1,147 @@
+# PixelOS-AOSP/android_system_memory_libmeminfo  (gerrit project: PixelOS-AOSP/android_system_memory_libmeminfo)
+    - id: 9746  # sysmeminfo: Skip per process GPU memory usage trace if disabled in kernel
+
+# PixelOS-AOSP/android_frameworks_av  (gerrit project: PixelOS-AOSP/android_frameworks_av)
+    - id: 9282  # camera: bypass roundBufferDimensionNearest for Y16
+
+# PixelOS-AOSP/android_external_zstd  (gerrit project: PixelOS-AOSP/android_external_zstd)
+    - id: 9633  # zstd: Android.bp: Allow rsync to add zstd compression support
+
+# PixelOS-AOSP/android_vendor_custom  (gerrit project: PixelOS-AOSP/android_vendor_custom)
+    - id: 9752  # config: Conditionally build ColumbusService
+
+# PixelOS-AOSP/android_bionic  (gerrit project: PixelOS-AOSP/android_bionic)
+    - id: 9604  # libc: libstdc++: Introduce libstdc++_vendor
+
+# PixelOS-AOSP/android_bootable_deprecated-ota  (gerrit project: PixelOS-AOSP/android_bootable_deprecated-ota)
+    - id: 9578  # updater: Support loading dynamic partition metadata from OTA
+
+# PixelOS-AOSP/android_bootable_recovery  (gerrit project: PixelOS-AOSP/android_bootable_recovery)
+    - id: 9774  # recovery: Return true for IsDeviceUnlocked() if fenrir=true
+
+# PixelOS-AOSP/android_build  (gerrit project: PixelOS-AOSP/android_build)
+    - id: 9639  # Revert "Add message suggesting SOONG_INCREMENTAL_ANALYSIS=true after builds"
+
+# PixelOS-AOSP/android_build_soong  (gerrit project: PixelOS-AOSP/android_build_soong)
+    - id: 9212  # Add support for prebuilt rust binaries
+
+# PixelOS-AOSP/android_development  (gerrit project: PixelOS-AOSP/android_development)
+    - id: 9605  # make-key: Enforce PBEv1 password-protected signing keys
+
+# PixelOS-AOSP/android_external_avb  (gerrit project: PixelOS-AOSP/android_external_avb)
+    - id: 9644  # DNM Revert "Add ANDROID_SECURE_STORAGE_CMD support in RSAPublicKey()"
+
+# PixelOS-AOSP/android_external_dng_sdk  (gerrit project: PixelOS-AOSP/android_external_dng_sdk)
+    - id: 9595  # dng_area_task: Provide backwards compatibility with legacy blobs
+
+# PixelOS-AOSP/android_external_dng_sdk  (gerrit project: PixelOS_AOSP/android_external_dng_sdk)
+    # (none)
+
+# PixelOS-AOSP/android_external_dtc  (gerrit project: PixelOS-AOSP/android_external_dtc)
+    - id: 9575  # dtc: Fix -Wincompatible-pointer-types-discards-qualifiers warnings
+
+# PixelOS-AOSP/android_external_e2fsprogs  (gerrit project: PixelOS-AOSP/android_external_e2fsprogs)
+    - id: 9597  # e2fsck: Loosen fscrypt_policy struct size check
+
+# PixelOS-AOSP/android_external_gptfdisk  (gerrit project: PixelOS-AOSP/android_external_gptfdisk)
+    - id: 9559  # gptfdisk: Make libgptf available to product/vendor
+
+# PixelOS-AOSP/android_external_libjxl  (gerrit project: PixelOS-AOSP/android_external_libjxl)
+    - id: 9606  # libjxl: Make it available to vendor
+
+# PixelOS-AOSP/android_external_mksh  (gerrit project: PixelOS-AOSP/android_external_mksh)
+    - id: 9583  # mksh: Set TERM to xterm-256color
+
+# PixelOS-AOSP/android_external_tinycompress  (gerrit project: PixelOS-AOSP/android_external_tinycompress)
+    - id: 9599  # tinycompress: Add conditional compilation check for compress param
+
+# PixelOS-AOSP/android_frameworks_base  (gerrit project: PixelOS-AOSP/android_frameworks_base)
+    - id: 9837  # ColorDisplayService: initialize global saturation matrix before rebuild
+
+# PixelOS-AOSP/android_frameworks_native  (gerrit project: PixelOS-AOSP/android_frameworks_native)
+    - id: 9379  # Revert "Add flag to drop support for gralloc 2/3"
+
+# PixelOS-AOSP/android_frameworks_opt_telephony  (gerrit project: PixelOS-AOSP/android_frameworks_opt_telephony)
+    - id: 9485  # EuiccCardController: Avoid NPE for legacy euicc devices
+
+# PixelOS-AOSP/android_hardware_broadcom_libbt  (gerrit project: PixelOS-AOSP/android_hardware_broadcom_libbt)
+    - id: 9552  # libbt: Convert to Android.bp
+
+# PixelOS-AOSP/android_hardware_google_pixel  (gerrit project: PixelOS-AOSP/android_hardware_google_pixel)
+    - id: 9436  # recovery: Wipe trusty_userdata partition if it exists
+
+# PixelOS-AOSP/android_hardware_google_pixel-sepolicy  (gerrit project: PixelOS-AOSP/android_hardware_google_pixel-sepolicy)
+    - id: 9440  # sepolicy: Update ignored policy for CP2A
+
+# PixelOS-AOSP/android_hardware_interfaces  (gerrit project: PixelOS-AOSP/android_hardware_interfaces)
+    - id: 9749  # compatibility_matrices: Add kernel_config_t_4.14
+
+# PixelOS-AOSP/android_hardware_libhardware  (gerrit project: PixelOS-AOSP/android_hardware_libhardware)
+    - id: 9601  # libhardware: Add new display types.
+
+# PixelOS-AOSP/android_hardware_nxp_nfc  (gerrit project: PixelOS-AOSP/android_hardware_nxp_nfc)
+    - id: 9607  # snxxx: Support overriding FW filename
+
+# PixelOS-AOSP/android_hardware_st_nfc  (gerrit project: PixelOS-AOSP/android_hardware_st_nfc)
+    - id: 9589  # Add support for text FW configs
+
+# PixelOS-AOSP/android_kernel_configs  (gerrit project: PixelOS-AOSP/android_kernel_configs)
+    - id: 9751  # Align t/android-4.14 with t/android-4.19
+
+# PixelOS-AOSP/android_packages_apps_Settings  (gerrit project: PixelOS-AOSP/android_packages_apps_Settings)
+    - id: 9789  # Settings: Implement reverse-engineered system updates page
+
+# PixelOS-AOSP/android_packages_modules_Bluetooth  (gerrit project: PixelOS-AOSP/android_packages_modules_Bluetooth)
+    - id: 9530  # BondStateMachine: Allow skipping confirm for some remotes
+
+# PixelOS-AOSP/android_packages_modules_Connectivity  (gerrit project: PixelOS-AOSP/android_packages_modules_Connectivity)
+    - id: 9518  # ConnectivityService: Disable "Close QUIC connection" feature
+
+# PixelOS-AOSP/android_packages_modules_Permission  (gerrit project: PixelOS-AOSP/android_packages_modules_Permission)
+    - id: 9829  # permissions: check verity before using
+
+# PixelOS-AOSP/android_packages_modules_Wifi  (gerrit project: PixelOS-AOSP/android_packages_modules_Wifi)
+    - id: 9608  # Wifi: Ingore miracast scan from connectivity manager
+
+# PixelOS-AOSP/android_packages_modules_adb  (gerrit project: PixelOS-AOSP/android_packages_modules_adb)
+    - id: 9540  # adb: Always report as debuggable when building userdebug/eng
+
+# PixelOS-AOSP/android_packages_services_Telecomm  (gerrit project: PixelOS-AOSP/android_packages_services_Telecomm)
+    - id: 9592  # Incall vibration options[2/3]
+
+# PixelOS-AOSP/android_packages_services_Telephony  (gerrit project: PixelOS-AOSP/android_packages_services_Telephony)
+    - id: 9536  # Telephony: Migrate RadioInfo from ScrollView to NestedScrollView
+
+# PixelOS-AOSP/android_system_bpf  (gerrit project: PixelOS-AOSP/android_system_bpf)
+    - id: 9609  # bpfloader: Allow overriding kernel version
+
+# PixelOS-AOSP/android_system_chre  (gerrit project: PixelOS-AOSP/android_system_chre)
+    - id: 9610  # Restore MSM CHRE daemon support
+
+# PixelOS-AOSP/android_system_core  (gerrit project: PixelOS-AOSP/android_system_core)
+    - id: 9770  # init.rc disable bootreceiver traces by default
+
+# PixelOS-AOSP/android_system_fs_fs_mgr  (gerrit project: PixelOS-AOSP/android_system_fs_fs_mgr)
+    - id: 9457  # fixup! Restore support for separate A and B super partitions.
+
+# PixelOS-AOSP/android_system_libziparchive  (gerrit project: PixelOS-AOSP/android_system_libziparchive)
+    - id: 9611  # ziptool: restore unzip for recovery
+
+# PixelOS-AOSP/android_system_logging  (gerrit project: PixelOS-AOSP/android_system_logging)
+    - id: 9585  # logd: Use build time debuggable check for klogd_default
+
+# PixelOS-AOSP/android_system_media  (gerrit project: PixelOS-AOSP/android_system_media)
+    - id: 9603  # audio: Allow opting out of speaker_layout_channel_mask field
+
+# PixelOS-AOSP/android_system_netd  (gerrit project: PixelOS-AOSP/android_system_netd)
+    - id: 9523  # VPN-covered DNS traffic may not fall through
+
+# PixelOS-AOSP/android_system_sepolicy  (gerrit project: PixelOS-AOSP/android_system_sepolicy)
+    - id: 9397  # Add property to set secondary display orientation
+
+# PixelOS-AOSP/android_system_update_engine  (gerrit project: PixelOS-AOSP/android_system_update_engine)
+    - id: 9497  # Use ro.build.type in HardwareAndroid::AllowDowngrade()
+
+# PixelOS-AOSP/android_system_vold  (gerrit project: PixelOS-AOSP/android_system_vold)
+    - id: 9414  # Revert "vold: remove session keyring workaround for old kernels"
+
