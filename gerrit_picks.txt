@@ -49,6 +49,9 @@
 # PixelOS-AOSP/android_external_libjxl  (gerrit project: PixelOS-AOSP/android_external_libjxl)
     - id: 9606  # libjxl: Make it available to vendor
 
+# PixelOS-AOSP/android_external_bouncycastle  (gerrit project: PixelOS-AOSP/android_external_bouncycastle)
+    - id: 9783  # bouncycastle: Add EC/ECDSA provider to get our keybox spoofing working
+
 # PixelOS-AOSP/android_external_mksh  (gerrit project: PixelOS-AOSP/android_external_mksh)
     - id: 9583  # mksh: Set TERM to xterm-256color
 
@@ -78,6 +81,9 @@
 
 # PixelOS-AOSP/android_hardware_libhardware  (gerrit project: PixelOS-AOSP/android_hardware_libhardware)
     - id: 9601  # libhardware: Add new display types.
+
+# PixelOS-AOSP/android_packages_apps_Updater  (gerrit project: PixelOS-AOSP/android_packages_apps_Updater)
+    - id: 10383  # Updater: push-update: Allow specifying serial number
 
 # PixelOS-AOSP/android_hardware_nxp_nfc  (gerrit project: PixelOS-AOSP/android_hardware_nxp_nfc)
     - id: 9607  # snxxx: Support overriding FW filename
@@ -122,7 +128,7 @@
     - id: 9770  # init.rc disable bootreceiver traces by default
 
 # PixelOS-AOSP/android_system_fs_fs_mgr  (gerrit project: PixelOS-AOSP/android_system_fs_fs_mgr)
-    - id: 9457  # fixup! Restore support for separate A and B super partitions.
+    - id: 10384  # libsnapshot: Implement DM_USER_REQ_MAP_WRITE/UBLK_IO_OP_WRITE
 
 # PixelOS-AOSP/android_system_libziparchive  (gerrit project: PixelOS-AOSP/android_system_libziparchive)
     - id: 9611  # ziptool: restore unzip for recovery
@@ -140,7 +146,7 @@
     - id: 9397  # Add property to set secondary display orientation
 
 # PixelOS-AOSP/android_system_update_engine  (gerrit project: PixelOS-AOSP/android_system_update_engine)
-    - id: 9497  # Use ro.build.type in HardwareAndroid::AllowDowngrade()
+    - id: 10386  # Revert "update_engine: remove is_retrofit logic"
 
 # PixelOS-AOSP/android_system_vold  (gerrit project: PixelOS-AOSP/android_system_vold)
     - id: 9414  # Revert "vold: remove session keyring workaround for old kernels"
