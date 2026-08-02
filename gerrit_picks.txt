@@ -17,7 +17,7 @@
     - id: 9578  # updater: Support loading dynamic partition metadata from OTA
 
 # PixelOS-AOSP/android_bootable_recovery  (gerrit project: PixelOS-AOSP/android_bootable_recovery)
-    - id: 9774  # recovery: Return true for IsDeviceUnlocked() if fenrir=true
+    - id: 10387  # fixup! recovery: Implement a volume manager
 
 # PixelOS-AOSP/android_build  (gerrit project: PixelOS-AOSP/android_build)
     - id: 9639  # Revert "Add message suggesting SOONG_INCREMENTAL_ANALYSIS=true after builds"
@@ -125,7 +125,7 @@
     - id: 9610  # Restore MSM CHRE daemon support
 
 # PixelOS-AOSP/android_system_core  (gerrit project: PixelOS-AOSP/android_system_core)
-    - id: 9770  # init.rc disable bootreceiver traces by default
+    - id: 10419  # healthd: Reinitialize mChargerNames for every battery update
 
 # PixelOS-AOSP/android_system_fs_fs_mgr  (gerrit project: PixelOS-AOSP/android_system_fs_fs_mgr)
     - id: 10384  # libsnapshot: Implement DM_USER_REQ_MAP_WRITE/UBLK_IO_OP_WRITE
