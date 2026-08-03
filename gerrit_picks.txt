@@ -77,7 +77,7 @@
     - id: 9440  # sepolicy: Update ignored policy for CP2A
 
 # PixelOS-AOSP/android_hardware_interfaces  (gerrit project: PixelOS-AOSP/android_hardware_interfaces)
-    - id: 9749  # compatibility_matrices: Add kernel_config_t_4.14
+    - id: 10424  # Revert "health: expose updateChargerPresence for BatteryMonitor"
 
 # PixelOS-AOSP/android_hardware_libhardware  (gerrit project: PixelOS-AOSP/android_hardware_libhardware)
     - id: 9601  # libhardware: Add new display types.
@@ -125,7 +125,7 @@
     - id: 9610  # Restore MSM CHRE daemon support
 
 # PixelOS-AOSP/android_system_core  (gerrit project: PixelOS-AOSP/android_system_core)
-    - id: 10419  # healthd: Reinitialize mChargerNames for every battery update
+    - id: 10422  # Revert "BatteryMonitor: deduplicate checks for is_dock"
 
 # PixelOS-AOSP/android_system_fs_fs_mgr  (gerrit project: PixelOS-AOSP/android_system_fs_fs_mgr)
     - id: 10384  # libsnapshot: Implement DM_USER_REQ_MAP_WRITE/UBLK_IO_OP_WRITE
