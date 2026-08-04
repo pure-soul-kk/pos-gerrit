@@ -30,7 +30,7 @@ clone_dep "https://github.com/PixelOS-17/android_vendor_lineage" "seventeen" "ve
 pick() {
     local id="$1" comment="$2"
     echo "==> [picks] #${id}  (${comment})"
-    "${REPOPICK}" -P "${id}"
+    "${REPOPICK}" -p "${id}"
 }
 
 pick 9697 "PixelOS-AOSP/android_external_wpa_supplicant_8"
