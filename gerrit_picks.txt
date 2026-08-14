@@ -2,13 +2,13 @@
     - id: 9746  # sysmeminfo: Skip per process GPU memory usage trace if disabled in kernel
 
 # PixelOS-AOSP/android_frameworks_av  (gerrit project: PixelOS-AOSP/android_frameworks_av)
-    - id: 9282  # camera: bypass roundBufferDimensionNearest for Y16
+    - id: 10441  # av: Add missing support for proxy out
 
 # PixelOS-AOSP/android_external_zstd  (gerrit project: PixelOS-AOSP/android_external_zstd)
     - id: 9633  # zstd: Android.bp: Allow rsync to add zstd compression support
 
 # PixelOS-AOSP/android_vendor_custom  (gerrit project: PixelOS-AOSP/android_vendor_custom)
-    - id: 9752  # config: Conditionally build ColumbusService
+    - id: 10488  # config: set `net.pixelos.version` unconditionally
 
 # PixelOS-AOSP/android_bionic  (gerrit project: PixelOS-AOSP/android_bionic)
     - id: 9604  # libc: libstdc++: Introduce libstdc++_vendor
@@ -20,7 +20,7 @@
     - id: 10387  # fixup! recovery: Implement a volume manager
 
 # PixelOS-AOSP/android_build  (gerrit project: PixelOS-AOSP/android_build)
-    - id: 9639  # Revert "Add message suggesting SOONG_INCREMENTAL_ANALYSIS=true after builds"
+    - id: 10482  # releasetools: skip disable_ublk on non-dynamic devices
 
 # PixelOS-AOSP/android_build_soong  (gerrit project: PixelOS-AOSP/android_build_soong)
     - id: 9212  # Add support for prebuilt rust binaries
@@ -29,7 +29,7 @@
     - id: 9605  # make-key: Enforce PBEv1 password-protected signing keys
 
 # PixelOS-AOSP/android_external_avb  (gerrit project: PixelOS-AOSP/android_external_avb)
-    - id: 9644  # DNM Revert "Add ANDROID_SECURE_STORAGE_CMD support in RSAPublicKey()"
+    - id: 9580  # avbtool: Add retry to generate_fec_data()
 
 # PixelOS-AOSP/android_external_dng_sdk  (gerrit project: PixelOS-AOSP/android_external_dng_sdk)
     - id: 9595  # dng_area_task: Provide backwards compatibility with legacy blobs
@@ -59,10 +59,10 @@
     - id: 9599  # tinycompress: Add conditional compilation check for compress param
 
 # PixelOS-AOSP/android_frameworks_base  (gerrit project: PixelOS-AOSP/android_frameworks_base)
-    - id: 9837  # ColorDisplayService: initialize global saturation matrix before rebuild
+    - id: 10494  # wm: Preserve locked rotation during screen state changes
 
 # PixelOS-AOSP/android_frameworks_native  (gerrit project: PixelOS-AOSP/android_frameworks_native)
-    - id: 9379  # Revert "Add flag to drop support for gralloc 2/3"
+    - id: 9379  # libui: Restore support for gralloc 2/3
 
 # PixelOS-AOSP/android_frameworks_opt_telephony  (gerrit project: PixelOS-AOSP/android_frameworks_opt_telephony)
     - id: 9485  # EuiccCardController: Avoid NPE for legacy euicc devices
@@ -77,7 +77,7 @@
     - id: 9440  # sepolicy: Update ignored policy for CP2A
 
 # PixelOS-AOSP/android_hardware_interfaces  (gerrit project: PixelOS-AOSP/android_hardware_interfaces)
-    - id: 10424  # Revert "health: expose updateChargerPresence for BatteryMonitor"
+    - id: 9749  # compatibility_matrices: Add kernel_config_t_4.14
 
 # PixelOS-AOSP/android_hardware_libhardware  (gerrit project: PixelOS-AOSP/android_hardware_libhardware)
     - id: 9601  # libhardware: Add new display types.
@@ -95,7 +95,7 @@
     - id: 9751  # Align t/android-4.14 with t/android-4.19
 
 # PixelOS-AOSP/android_packages_apps_Settings  (gerrit project: PixelOS-AOSP/android_packages_apps_Settings)
-    - id: 9789  # Settings: Implement reverse-engineered system updates page
+    - id: 10495  # Settings: Forcefully enable Hotspot Speed setting
 
 # PixelOS-AOSP/android_packages_modules_Bluetooth  (gerrit project: PixelOS-AOSP/android_packages_modules_Bluetooth)
     - id: 9530  # BondStateMachine: Allow skipping confirm for some remotes
@@ -125,10 +125,10 @@
     - id: 9610  # Restore MSM CHRE daemon support
 
 # PixelOS-AOSP/android_system_core  (gerrit project: PixelOS-AOSP/android_system_core)
-    - id: 10422  # Revert "BatteryMonitor: deduplicate checks for is_dock"
+    - id: 9770  # init.rc disable bootreceiver traces by default
 
 # PixelOS-AOSP/android_system_fs_fs_mgr  (gerrit project: PixelOS-AOSP/android_system_fs_fs_mgr)
-    - id: 10384  # libsnapshot: Implement DM_USER_REQ_MAP_WRITE/UBLK_IO_OP_WRITE
+    # (none)
 
 # PixelOS-AOSP/android_system_libziparchive  (gerrit project: PixelOS-AOSP/android_system_libziparchive)
     - id: 9611  # ziptool: restore unzip for recovery
