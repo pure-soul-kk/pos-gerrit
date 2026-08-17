@@ -1,5 +1,5 @@
 # PixelOS-AOSP/android_system_memory_libmeminfo  (gerrit project: PixelOS-AOSP/android_system_memory_libmeminfo)
-    - id: 9746  # sysmeminfo: Skip per process GPU memory usage trace if disabled in kernel
+    - id: 10506  # Revert "Deprecate IonHeapSize and ProcessSystemIonHeapSize atoms"
 
 # PixelOS-AOSP/android_frameworks_av  (gerrit project: PixelOS-AOSP/android_frameworks_av)
     - id: 10441  # av: Add missing support for proxy out
@@ -8,7 +8,7 @@
     - id: 9633  # zstd: Android.bp: Allow rsync to add zstd compression support
 
 # PixelOS-AOSP/android_vendor_custom  (gerrit project: PixelOS-AOSP/android_vendor_custom)
-    - id: 10488  # config: set `net.pixelos.version` unconditionally
+    - id: 10551  # config: Inherit Crowdin translation overlays
 
 # PixelOS-AOSP/android_bionic  (gerrit project: PixelOS-AOSP/android_bionic)
     - id: 9604  # libc: libstdc++: Introduce libstdc++_vendor
@@ -59,7 +59,7 @@
     - id: 9599  # tinycompress: Add conditional compilation check for compress param
 
 # PixelOS-AOSP/android_frameworks_base  (gerrit project: PixelOS-AOSP/android_frameworks_base)
-    - id: 10494  # wm: Preserve locked rotation during screen state changes
+    - id: 10555  # systemui: allow configuring mobile data from wifi tile
 
 # PixelOS-AOSP/android_frameworks_native  (gerrit project: PixelOS-AOSP/android_frameworks_native)
     - id: 9379  # libui: Restore support for gralloc 2/3
@@ -95,7 +95,7 @@
     - id: 9751  # Align t/android-4.14 with t/android-4.19
 
 # PixelOS-AOSP/android_packages_apps_Settings  (gerrit project: PixelOS-AOSP/android_packages_apps_Settings)
-    - id: 10495  # Settings: Forcefully enable Hotspot Speed setting
+    - id: 10548  # Settings: Allow toggling certified properties
 
 # PixelOS-AOSP/android_packages_modules_Bluetooth  (gerrit project: PixelOS-AOSP/android_packages_modules_Bluetooth)
     - id: 9530  # BondStateMachine: Allow skipping confirm for some remotes
@@ -128,7 +128,7 @@
     - id: 9770  # init.rc disable bootreceiver traces by default
 
 # PixelOS-AOSP/android_system_fs_fs_mgr  (gerrit project: PixelOS-AOSP/android_system_fs_fs_mgr)
-    # (none)
+    - id: 10546  # libsnapshot: Restore dm-snapshot support
 
 # PixelOS-AOSP/android_system_libziparchive  (gerrit project: PixelOS-AOSP/android_system_libziparchive)
     - id: 9611  # ziptool: restore unzip for recovery
